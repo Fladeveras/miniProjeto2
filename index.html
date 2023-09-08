@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nosifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Cadastro de Filmes </title>
+</head>
+<body>
+    <header class="Movieh">
+        <h1 class="h1">MOVIE GALLERY</h1>
+    </header>
+    <div class="container">
+         
+        <p>Faça o casastro e de nota dos seus filmes favoritos</p>
+
+        <form id="movie-form">
+            <input type="text" id="movie-title" placeholder="Título do Filme" required>
+            <input type="text" id="movie-director" placeholder="Diretor" required>
+            <input type="date" id="movie-release-date" required>
+            <input type="number" id="movie-rating" placeholder="Nota (1-5)" required min="1" max="5">
+            <select class="select" id="movie-genre" required>
+                <option value="" disabled selected>Selecione o Gênero</option>
+                <option value="Ação">Ação</option>
+                <option value="Aventura">Aventura</option>
+                <option value="Cinema de arte">Cinema de arte</option>
+                <option value="Chanchada">Chanchada</option>
+                <option value="Comédia">Comédia</option>
+                <option value="Comédia de ação">Comédia de ação</option>
+                <option value="Comédia de terror">Comédia de terror</option>
+                <option value="Comédia dramática">Comédia dramática</option>
+                <option value="Comédia romântica">Comédia romântica</option>
+                <option value="Documentário">Documentário</option>
+                <option value="Docuficção">Docuficção</option>
+                <option value="Drama">Drama</option>
+                <option value="Espionagem">Espionagem</option>
+                <option value="Faroeste">Faroeste</option>
+                <option value="Fantasia">Fantasia</option>
+                <option value="Fantasia científica">Fantasia científica</option>
+                <option value="Ficção científica">Ficção científica</option>
+                <option value="Filmes com truques">Filmes com truques</option>
+                <option value="Filmes de guerra">Filmes de guerra</option>
+                <option value="Mistério">Mistério</option>
+                <option value="Musical">Musical</option>
+                <option value="Filme policial">Filme policial</option>
+                <option value="Romance">Romance</option>
+                <option value="Terror">Terror</option>
+                <option value="Thriller">Thriller</option>
+            </select>
+            <button class="button" type="submit">Cadastrar</button>
+        </form>
+        <div class="movie-list" id="movie-list">
+    
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

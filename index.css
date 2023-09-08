@@ -1,0 +1,115 @@
+body{
+  background-color: #f40303;
+    color: #fff;
+}
+
+.Movieh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px ;
+    margin: 0px;
+}
+
+.h1{
+    letter-spacing: 20px;
+    color: #000000;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 5px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 5px;
+    background: #f40303;
+    border: 2px solid #fd0000e1;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 10px 10px 100px #8a0202;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 25px;
+}
+
+.button:hover{
+    background: #f40303;
+    box-shadow: none;
+    transform: scale(1.2);
+}
+
+.movie {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie span {
+    flex-grow: 1;
+}
+
+.stars {
+    display: flex;
+}
+
+.star {
+    margin: 0 2px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star-filled {
+    color: gold; 
+}
+
+.star-empty {
+    color: gray; 
+}
+
+.movie-list{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.delete-button{
+    color: #ffffff;
+    background-color: #f40303;
+    border: none;
+}
+
+.select{
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
